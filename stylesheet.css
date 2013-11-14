@@ -26,6 +26,11 @@ nav ul li{
     background:#605e5e;
     border-radius:3px;
 }
+a{
+    text-decoration:none;
+    color: inherit;
+}
 a:visited{
-    color: #b1b1b1;
+    color: inherit;
+    text-decoration:none;
 }
