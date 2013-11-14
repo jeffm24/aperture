@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+body{
+    background: gray;
+}
+nav{
+    background: rgb(41, 39, 39);
+    border-radius:5px;
+    padding:5px;
+    
+}
+nav ul{
+    list-style-type: none;
+    color:#b1b1b1;
+    height:100%;
+}
+nav ul li{
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.25em;
+    background:#605e5e;
+    border-radius:3px;
+}
+a:visited{
+    color: #b1b1b1;
+}
