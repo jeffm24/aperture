@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <title> Welcome! </title>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <style>
+        @media screen and (min-width: 600px){
+            .max{
+                visibility:visible;   
+            }
+            .mid{
+                visibility:hidden;
+            }
+            .min{
+                visibility:hidden;
+            }
+        
+            a:link{
+                position: fixed;
+                top: 50%;
+                left: 46.5%;
+            }
+        }
+        
+        @media screen and (max-width: 900px) and (min-width: 600px){
+            .max{
+                visibility:hidden;   
+            }
+            .mid{
+                visibility:visible;
+            }
+            .min{
+                visibility:hidden;
+            }
+        
+            a:link{
+                position: fixed;
+                top: 50%;
+                left: 45%;
+            }
+        }
+        
+        @media screen and (max-width: 600px){
+            .max{
+                visibility:hidden;   
+            }
+            .mid{
+                visibility:hidden;
+            }
+            .min{
+                visibility:visible;
+            }
+            
+            a:link{
+                position: fixed;
+                top: 50%;
+                left: 39%;
+            }
+        }
+        
+        .min{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;; 
+        }
+     
+        .mid{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+       
+        .max{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        a:link{
+            text-shadow: 2px 2px 2px black;  
+            text-decoration: none;
+            color: lightgrey;
+            font-size: 2em;
+            font-family: 'Orbitron', sans-serif;
+            background-color: rgba(0, 0, 0, 0.2);
+            outline-style:outset;
+            outline-width:medium;
+            padding: 5px;
+        }
+        
+        a:hover{
+            outline-style:inset;
+            color: grey;
+        }
+        
+        body{
+            overflow:hidden;     
+        }
+    </style>
+</head>
+<body>    
+    <img class="max" src="backgroundMax.jpg"></img>
+    <img class="mid" src="backgroundMid.jpg"></img>
+    <img class="min" src="backgroundMin.jpg"></img>
+    <a href="index.html" alt="enter">Enter</a>
+</body>
+</html>
